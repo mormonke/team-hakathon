@@ -1,0 +1,211 @@
+.contentCard {
+  /* margin-top: 150px; */
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 300px;
+  height: 400px;
+}
+
+.imgInContent {
+  width: 150px;
+  border-radius: 100%;
+}
+
+.moreText {
+  display: flex;
+  flex-direction: column;
+}
+.cardMain {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 220px;
+}
+
+.btnCard {
+  color: #a60c00;
+  background-color: #ffc83d;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  letter-spacing: 0.1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.heart::after {
+  content: " ♥";
+  opacity: 1;
+  visibility: visible;
+}
+
+.group {
+  display: flex;
+  line-height: 28px;
+  align-items: center;
+  position: relative;
+  max-width: 500px;
+}
+
+.input1 {
+  margin-top: 30px;
+  height: 40px;
+  line-height: 28px;
+  padding: 0 1rem;
+  width: 100%;
+  padding-left: 2.5rem;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  outline: none;
+  background-color: #d9e8d8;
+  color: #0d0c22;
+  box-shadow: 0 0 5px #c1d9bf, 0 0 0 10px #f5f5f5eb;
+  transition: 0.3s ease;
+}
+
+.input1::placeholder {
+  color: #777;
+}
+
+.icon {
+  margin-top: 30px;
+  position: absolute;
+  left: 1rem;
+  fill: #777;
+  width: 1rem;
+  height: 1rem;
+}
+
+.selectMenu {
+  margin-top: 15px;
+  font-family: "Oswald", sans-serif;
+  margin-left: 330px;
+  padding: 10px;
+  width: 200px;
+  height: 50px;
+  border-radius: 60px;
+  background-color: #ffc83d;
+  color: #a60c00;
+  font-size: 15px;
+}
+
+.pagList {
+  display: flex;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+.qweBucket {
+  margin-left: 900px;
+}
+
+@media only screen and (max-width: 600px) {
+  .qweBucket {
+    margin-left: 140px;
+  }
+  .icon {
+    display: none;
+  }
+  .input1 {
+    width: 130px;
+    margin-top: 20px;
+  }
+
+  .moreText {
+    font-size: 16px;
+    text-align: center;
+  }
+  .btnCard {
+    width: 180px;
+    padding: 3px;
+    margin: 0 60px;
+  }
+
+  .contentCard {
+    width: 300px;
+    height: 300px;
+  }
+
+  .group svg {
+    display: none;
+  }
+
+  .moreText {
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .contentCard {
+    width: 300px;
+    height: 300px;
+  }
+  .selectMenu {
+    width: 130px;
+    margin-top: 50px;
+  }
+  .imgInContent {
+    width: 100px;
+  }
+
+  .cardMain {
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-left: 20px;
+    display: flex;
+  }
+
+  .selectMenu {
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-left: 90px;
+    padding: 0;
+    height: 30px;
+    font-size: 16px;
+  }
+  .contentCard {
+    padding: 0;
+    margin: 0;
+  }
+  .pagList {
+    margin-left: 0;
+  }
+
+  .MuiPagination-ul css-wjh20t-MuiPagination-ul li {
+    width: 5px;
+  }
+}
+
+@media only screen and (width: 768px) {
+  .qweBucket {
+    margin-left: 460px;
+  }
+  .icon {
+    display: none;
+  }
+  .group {
+    margin-left: 230px;
+  }
+  .selectMenu {
+    margin-left: 385px;
+  }
+  .pagList {
+    margin-left: 140px;
+  }
+  .input1 {
+    width: 70%;
+  }
+}
+
+@media only screen and (width: 1024px) {
+  .qweBucket {
+    margin-left: 460px;
+  }
+  .selectMenu {
+    margin-left: 250px;
+  }
+}
+
+@media only screen and (width: 2560px) {
+  .qweBucket {
+    margin-left: 1300px;
+  }
+}

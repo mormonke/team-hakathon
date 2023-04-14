@@ -1,0 +1,158 @@
+.main {
+  padding-top: 40px;
+}
+.photoInMain {
+  height: 200px;
+  margin-left: 50px;
+  object-fit: cover;
+  background-image: url(../style/back.jpg);
+  display: flex;
+  align-items: center;
+}
+
+.spanInPhoto {
+  font-size: 96px;
+  color: white;
+  margin-left: 800px;
+  text-align: center;
+}
+
+.iconHref {
+  margin-left: 270px;
+}
+
+.LinkNav {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+}
+
+.LinkNav:hover {
+  background-color: gray;
+
+  border-radius: 50px;
+}
+.telAd {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.wrapperLeft {
+  width: 800px;
+  margin-left: 270px;
+}
+
+.imgRight {
+  width: 800px;
+  border-radius: 30px;
+}
+
+.addTel {
+  margin-left: 279px;
+}
+
+.qwePhoto {
+  margin-top: 30px;
+  width: 800px;
+  height: 100px;
+  object-fit: cover;
+  background-image: url(../style/bgqwe.jpg);
+}
+
+@media only screen and (max-width: 600px) {
+  .main {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .photoInMain {
+    height: 100px;
+
+    margin-left: 0;
+  }
+  .spanInPhoto {
+    margin-left: 45px;
+    font-size: 64px;
+  }
+  .telAd {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .wrapperLeft {
+    margin-left: 0;
+    max-width: 100%;
+  }
+  .pLeft {
+    text-align: center;
+  }
+  .qwePhoto {
+    height: 100px;
+    margin-left: 0;
+    width: 100%;
+  }
+  .addTel {
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+  .iconHref {
+    margin-left: 0;
+    margin-bottom: 90px;
+  }
+  .wrapperRight {
+    display: none;
+  }
+}
+
+@media only screen and (width: 768px) {
+  .wrapperRight {
+    display: none;
+  }
+  .spanInPhoto {
+    margin-left: 240px;
+  }
+  .wrapperLeft {
+    margin-left: 210px;
+    width: 100%;
+  }
+  .telAd {
+    margin-left: 0;
+  }
+  .qwePhoto {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .addTel {
+    margin-left: 210px;
+  }
+  .iconHref {
+    margin-left: 210px;
+  }
+}
+
+@media only screen and (width: 1024px) {
+  .wrapperRight {
+    display: none;
+  }
+  .spanInPhoto {
+    margin-left: 400px;
+  }
+  .wrapperLeft {
+    margin-left: 210px;
+    width: 100%;
+  }
+  .telAd {
+    margin-left: 0;
+  }
+  .qwePhoto {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .addTel {
+    margin-left: 210px;
+  }
+  .iconHref {
+    margin-left: 210px;
+  }
+}

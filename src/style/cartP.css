@@ -1,0 +1,15 @@
+.qweLI {
+  width: 500px;
+}
+@media only screen and (max-width: 600px) {
+  .qweUL {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: left;
+  }
+  .qweLI {
+    font-size: 16px;
+    width: 250px;
+  }
+}

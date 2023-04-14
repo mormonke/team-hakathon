@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
+
+:root {
+  font-size: 16px;
+}
+
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: #ffd773;
+}
+.back-container {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.wrapper-right {
+  margin-top: 70px;
+  max-width: 1000px;
+  max-height: 600px;
+}
+
+.wrapper-left {
+  margin-top: 120px;
+  margin-left: 280px;
+}
+
+.main-text {
+  text-align: center;
+  color: #a62800;
+  font-size: 72px;
+  font-family: "Fjalla One", sans-serif;
+}
+
+.text {
+  font-size: 20px;
+  font-family: "Fjalla One", sans-serif;
+  text-align: center;
+  color: white;
+}
+
+/* BTN */
+.buttons {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logUs,
+.shop {
+  padding: 0.5rem 2.5rem 0.5rem 2.5rem;
+  box-shadow: 0px 0px 0px 3px #a60c00;
+  border: 0;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  background-color: #ffc83d;
+  color: #a60c00;
+  font-weight: bolder;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
+  transition: all 0.9s ease-in-out;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+
+.logUs:hover {
+  background-color: #a62800;
+  color: white;
+}
+
+.logUs::before {
+  content: "☕";
+  position: absolute;
+  left: -0rem;
+  top: 0rem;
+  opacity: 1;
+  font-size: 1.55rem;
+  transition: all 0.9s ease-in-out;
+  transform: rotate(0deg);
+}
+
+.logUs:hover::before {
+  content: "☕";
+  opacity: 1;
+  visibility: visible;
+  transform: rotate(40deg);
+  font-size: 2.5rem;
+  top: -0.75rem;
+  transition: all 0.9s ease-in-out;
+  animation: rightRun 2s forwards;
+}
+
+.logUs:active::before {
+  content: "☕";
+}
+
+@keyframes rightRun {
+  100% {
+    transform: translateX(120px);
+  }
+}
+
+.shop:hover {
+  background-color: #a62800;
+  color: white;
+}
+
+.shop::before {
+  content: "🛒";
+  position: absolute;
+  left: -0rem;
+  top: 0rem;
+  opacity: 1;
+  font-size: 1.55rem;
+  transition: all 0.9s ease-in-out;
+  transform: rotate(0deg);
+}
+
+.shop:hover::before {
+  content: "🛒";
+  opacity: 1;
+  visibility: visible;
+  transform: rotate(40deg);
+  font-size: 2.5rem;
+  top: -0.75rem;
+  transition: all 0.9s ease-in-out;
+  animation: rightSRun 2s forwards;
+}
+
+.shop:active::before {
+  content: "🛒";
+}
+
+@keyframes rightSRun {
+  100% {
+    transform: translateX(170px);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .wrapper-right {
+    display: none;
+  }
+  .main-text {
+    font-size: 24px;
+  }
+  .text {
+    font-size: 16px;
+  }
+  .wrapper-left {
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+
+  .shop {
+    width: 120px;
+    font-size: 8px;
+  }
+  .shop:hover::before {
+    display: none;
+  }
+
+  .shop:active::before {
+    display: none;
+  }
+
+  .shop {
+    transition: none;
+  }
+
+  .logUs {
+    width: 120px;
+    font-size: 8px;
+  }
+  .logUs:hover::before {
+    display: none;
+  }
+
+  .logUs:active::before {
+    display: none;
+  }
+
+  .logUs {
+    transition: none;
+  }
+}
+
+@media only screen and (width: 768px) {
+  .wrapper-right {
+    display: none;
+  }
+
+  .wrapper-left {
+    margin-left: 195px;
+  }
+}
+
+@media only screen and (width: 1024px) {
+  .wrapper-right {
+    display: none;
+  }
+  .wrapper-left {
+    margin-left: 200px;
+  }
+}
+
+@media only screen and (width: 1440px) {
+  .container {
+    height: 100%;
+  }
+  .wrapper-left {
+    margin-top: 20px;
+    width: 800px;
+  }
+
+  .wrapper-right {
+    margin-top: 0;
+    width: 600px;
+    max-height: 100%;
+  }
+}
+
+@media only screen and (width: 2560px) {
+  .wrapper-right {
+    margin-top: 0;
+  }
+}

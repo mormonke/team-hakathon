@@ -1,0 +1,244 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Espresso con pan",
+      "price": 3.95,
+      "description": "This Starbucks coffee is one of the varieties of strong espresso. A cup of invigorating drink is decorated with whipped cream and sprinkled with grated chocolate. ",
+      "category": "coffee",
+      "image": "https://www.starbucks.com.kz/sites/starbucks-kz/files/styles/c04_image_text_grid_600x600/public/2021-11/Espresso%20Con%20Panna.jpeg.webp?itok=9PZqTLXA"
+    },
+    {
+      "id": 2,
+      "title": "Latte",
+      "price": 2.95,
+      "description": "A drink based on espresso and milk with a small amount of milk foam",
+      "category": "coffee",
+      "image": "https://www.starbucks.com.kz/sites/starbucks-kz/files/styles/c04_image_text_grid_600x600/public/2021-11/Caffe%CC%80%20Latte.jpeg.webp?itok=5d0Ap81c"
+    },
+    {
+      "id": 3,
+      "title": "Chilled latte",
+      "price": 4.5,
+      "description": "Chilled drink based on espresso and milk",
+      "category": "coffee",
+      "image": "https://www.starbucks.com.kz/sites/starbucks-kz/files/styles/c04_image_text_grid_600x600/public/2021-11/Iced%20Caffe%CC%80%20Latte%20.jpeg.webp?itok=-DdL3Taw"
+    },
+    {
+      "id": 4,
+      "title": "Mocha",
+      "price": 3.5,
+      "description": "A chilled drink based on espresso and milk with the addition of chocolate sauce, decorated with whipped cream on top.",
+      "category": "coffee",
+      "image": "https://www.starbucks.com.kz/sites/starbucks-kz/files/styles/c04_image_text_grid_600x600/public/2021-11/Caffe%CC%80%20Mocha.jpeg.webp?itok=dngqEU2D"
+    },
+    {
+      "id": 5,
+      "title": "Chilled mocha",
+      "price": 4.99,
+      "description": "A chilled drink based on espresso and milk with the addition of chocolate sauce, decorated with whipped cream on top",
+      "category": "coffee",
+      "image": "https://www.starbucks.com.kz/sites/starbucks-kz/files/styles/c04_image_text_grid_600x600/public/2021-11/Iced%20Caffe%CC%80%20Mocha.jpeg.webp?itok=EE4v5O73"
+    },
+    {
+      "id": 6,
+      "title": "Mocha White Chocolate",
+      "price": 3.99,
+      "description": "A drink based on espresso and milk with the addition of white chocolate sauce",
+      "category": "coffee",
+      "image": "https://www.starbucks.com.kz/sites/starbucks-kz/files/styles/c04_image_text_grid_600x600/public/2021-11/White%20Chocolate%20Mocha.jpeg.webp?itok=odTeKlOC"
+    },
+    {
+      "id": 7,
+      "title": "Mocha White Chocolate chilled",
+      "price": 4,
+      "description": "A chilled drink based on espresso and milk with the addition of white chocolate sauce, decorated with whipped cream on top",
+      "category": "coffee",
+      "image": "https://www.starbucks.com.kz/sites/starbucks-kz/files/styles/c04_image_text_grid_600x600/public/2021-11/Iced%20White%20Chocolate%20Mocha.jpeg.webp?itok=VJlh2Hsj"
+    },
+    {
+      "id": 8,
+      "title": "Latte Macchiato",
+      "price": 6.5,
+      "description": "Chilled milk-based drink with a rich espresso flavor",
+      "category": "coffee",
+      "image": "https://www.starbucks.com.kz/sites/starbucks-kz/files/styles/c04_image_text_grid_600x600/public/2021-11/Latte%20Macchiato.jpeg.webp?itok=3_80XBPV"
+    },
+    {
+      "id": 9,
+      "title": "Caramel Macchiato",
+      "price": 6.19,
+      "description": "Starbucks signature drink based on espresso and milk with vanilla syrup, decorated with caramel sauce",
+      "category": "coffee",
+      "image": "https://www.starbucks.com.kz/sites/starbucks-kz/files/styles/c04_image_text_grid_600x600/public/2021-11/Caramel%20Macchiato.jpeg.webp?itok=whhePqmL"
+    },
+    {
+      "id": 10,
+      "title": "Caramel Macchiato chilled",
+      "price": 7.8,
+      "description": "Chilled Starbucks branded drink based on espresso and milk with vanilla syrup, decorated with caramel sauce",
+      "category": "coffee",
+      "image": "https://www.starbucks.com.kz/sites/starbucks-kz/files/styles/c04_image_text_grid_600x600/public/2021-11/Iced%20Caramel%20Macchiato.jpeg.webp?itok=bC43DbK1"
+    },
+    {
+      "id": 11,
+      "title": "Cappuccino",
+      "price": 4,
+      "description": "A drink based on espresso and milk with a lot of milk foam.",
+      "category": "coffee",
+      "image": "https://www.starbucks.com.kz/sites/starbucks-kz/files/styles/c04_image_text_grid_600x600/public/2021-11/Cappuccino.jpeg.webp?itok=5QhZMvbI"
+    },
+    {
+      "id": 12,
+      "title": "Americano",
+      "price": 2.95,
+      "description": "Espresso-based black coffee with the addition of hot water",
+      "category": "coffee",
+      "image": "https://www.starbucks.com.kz/sites/starbucks-kz/files/styles/c04_image_text_grid_600x600/public/2021-11/Caffe%CC%80%20Americano.jpeg.webp?itok=OR5sQ4gX"
+    },
+    {
+      "id": 13,
+      "title": "Americano chilled",
+      "price": 3.5,
+      "description": "Chilled black espresso-based coffee",
+      "category": "coffee",
+      "image": "https://www.starbucks.com.kz/sites/starbucks-kz/files/styles/c04_image_text_grid_600x600/public/2021-11/Iced%20Caffe%CC%80%20Americano.jpeg.webp?itok=9DR7vOPe"
+    },
+    {
+      "id": 14,
+      "title": "Espresso Oatmeal Shake",
+      "price": 10.9,
+      "description": "A gentle combination of chilled espresso of light roasting with cane sugar syrup with oatmeal base. An invigorating and nutritious drink!",
+      "category": "coffee",
+      "image": "https://www.starbucks.com.kz/sites/starbucks-kz/files/styles/c04_image_text_grid_600x600/public/2023-03/%D0%9E%D0%B2%D1%81%D1%8F%D0%BD%D1%8B%D0%B9%20%D0%A8%D0%B5%D0%B9%D0%BA%20%E2%80%94%20%D0%9E%D1%82%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BE.png.webp?itok=iBDTHCb9"
+    },
+    {
+      "id": 15,
+      "title": "Classic croissant",
+      "price": 3.95,
+      "description": "Classic French croissant.",
+      "category": "bakery",
+      "image": "https://www.starbucks.com.kz/sites/starbucks-kz/files/styles/c04_image_text_grid_600x600/public/2022-02/SBX-UK-MOP-ButterCroissant_0.jpg.webp?itok=SeJBU9Bx"
+    },
+    {
+      "id": 16,
+      "title": "Chocolate Tie",
+      "price": 3.99,
+      "description": "Puff pastry with chocolate drops and cream",
+      "category": "bakery",
+      "image": "https://www.starbucks.com.kz/sites/starbucks-kz/files/styles/c04_image_text_grid_600x600/public/2022-02/SBX-UK-MOP-ChocolateTwist.jpg.webp?itok=3zIcK1YO"
+    },
+    {
+      "id": 17,
+      "title": "Brussels Waffle with sugar",
+      "price": 4.5,
+      "description": "Brussels Waffle with sugar",
+      "category": "bakery",
+      "image": "https://www.starbucks.com.kz/sites/starbucks-kz/files/styles/c04_image_text_grid_600x600/public/2022-03/1.png.webp?itok=io5FS8dr"
+    },
+    {
+      "id": 18,
+      "title": "Croissant with blueberries",
+      "price": 3.99,
+      "description": "Classic French croissant stuffed with juicy blueberries",
+      "category": "bakery",
+      "image": "https://www.starbucks.qa/sites/starbucks-qa/files/styles/c04_image_text_grid_600x600/public/2021-01/Cheese%20Croissant.jpg.webp?itok=QgvbD-ig"
+    },
+    {
+      "id": 19,
+      "title": "Croissant with cheese",
+      "price": 6.2,
+      "description": "Classic French croissant with cheese filling and sprinkled with herbs.",
+      "category": "bakery",
+      "image": "https://www.starbucks.com.kz/sites/starbucks-kz/files/styles/c04_image_text_grid_600x600/public/2022-02/SBX-UK-MOP-ButterCroissant_0.jpg.webp?itok=SeJBU9Bx"
+    },
+    {
+      "id": 20,
+      "title": "Cinnabon with nuts",
+      "price": 11.11,
+      "description": "Puff pastry with icing sugar and walnut sprinkles",
+      "category": "bakery",
+      "image": "https://www.starbucks.com.kz/sites/starbucks-kz/files/styles/c04_image_text_grid_600x600/public/2022-02/SBX-UK-MOP-CinnamonSwirl.jpg.webp?itok=QfUP2d5k"
+    },
+    {
+      "id": 21,
+      "title": "Croissant with raspberries",
+      "price": 10.77,
+      "description": "Classic French croissant with raspberry filling.",
+      "category": "bakery",
+      "image": "https://www.starbucks.com.kz/sites/starbucks-kz/files/styles/c04_image_text_grid_600x600/public/2022-02/SBX-UK-MOP-ButterCroissant_0.jpg.webp?itok=SeJBU9Bx"
+    },
+    {
+      "id": 22,
+      "title": "Chilled Black Tea",
+      "price": 7.8,
+      "description": "Tonic black tea with ice",
+      "category": "tea",
+      "image": "https://www.starbucks.com.kz/sites/starbucks-kz/files/styles/c04_image_text_grid_600x600/public/2021-11/Iced%20Black%20Tea.jpeg.webp?itok=2BRx3Lsi"
+    },
+    {
+      "id": 23,
+      "title": "Lemonade Chilled Black Tea",
+      "price": 14.9,
+      "description": "Tonic black tea with ice",
+      "category": "tea",
+      "image": "https://www.starbucks.com.kz/sites/starbucks-kz/files/styles/c04_image_text_grid_600x600/public/2021-11/Iced%20Black%20Tea%20Lemonade.jpeg.webp?itok=WXUQzKv2"
+    },
+    {
+      "id": 24,
+      "title": "Chilled Green Tea",
+      "price": 10.5,
+      "description": "Tonic green tea with ice",
+      "category": "tea",
+      "image": "https://www.starbucks.com.kz/sites/starbucks-kz/files/styles/c04_image_text_grid_600x600/public/2021-11/Iced%20Green%20Tea.jpeg.webp?itok=m7Oz5HFL"
+    },
+    {
+      "id": 25,
+      "title": "Lemonade Green Tea chilled",
+      "price": 11.5,
+      "description": "Tonic lemonade based on green tea",
+      "category": "tea",
+      "image": "https://www.starbucks.com.kz/sites/starbucks-kz/files/styles/c04_image_text_grid_600x600/public/2021-11/Iced%20Green%20Tea%20Lemonade.jpeg.webp?itok=6OGoutKf"
+    },
+    {
+      "id": 27,
+      "title": "Spicy Tea Latte chilled",
+      "price": 14.9,
+      "description": "Branded chilled tea cocktail based on black tea with honey, spices and milk",
+      "category": "tea",
+      "image": "https://www.starbucks.com.kz/sites/starbucks-kz/files/styles/c04_image_text_grid_600x600/public/2021-11/Iced%20Chai%20Tea%20Latte.jpeg.webp?itok=ftQuzKqE"
+    },
+    {
+      "id": 28,
+      "title": "Water glass",
+      "price": 20,
+      "description": "Steel water glass 473 ml from the new collection",
+      "category": "glasses",
+      "image": "https://www.starbucks.com.kz/sites/starbucks-kz/files/styles/c04_image_text_grid_600x600/public/2022-05/3_0.png.webp?itok=TubSdAt_"
+    },
+    {
+      "id": 29,
+      "title": "Tumbler for drinks",
+      "price": 25,
+      "description": "Plastic tumbler, 473 ml from the new collection",
+      "category": "glasses",
+      "image": "https://www.starbucks.com.kz/sites/starbucks-kz/files/styles/c04_image_text_grid_600x600/public/2022-05/7.png.webp?itok=6Aedi7OY"
+    },
+    {
+      "id": 30,
+      "title": "Ceramic mug for drinks",
+      "price": 15.99,
+      "description": "Ceramic mug 355 ml from the new collection",
+      "category": "glasses",
+      "image": "https://www.starbucks.com.kz/sites/starbucks-kz/files/styles/c04_image_text_grid_600x600/public/2022-05/4.png.webp?itok=59suQo-M"
+    },
+    {
+      "id": 31,
+      "title": "Ceramic Mug",
+      "price": 17.99,
+      "description": "Glazed ceramic mug of 330 ml volume",
+      "category": "glasses",
+      "image": "https://www.starbucks.com.kz/sites/starbucks-kz/files/styles/c04_image_text_grid_600x600/public/2022-05/2.png.webp?itok=olScFcr3"
+    }
+  ]
+}
